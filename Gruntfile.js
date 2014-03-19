@@ -1,3 +1,4 @@
+/* jslint node: true */
 // Generated on 2014-03-13 using generator-webapp 0.4.8
 'use strict';
 
