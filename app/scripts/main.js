@@ -6,7 +6,7 @@ window.onload = function() {
       console.log("Removing");
     }
     var nE = document.createElement("td");
-    cr.appendChild(nE)
+    cr.appendChild(nE);
     nE.setAttribute("colspan", 5);
     nE.innerHTML = gup("os");
 
@@ -15,7 +15,7 @@ window.onload = function() {
     sup("bs", "bs");
   }
   if (gup("oa") === "" && gup("ba") === "") {
-    var cr = document.getElementById("current_row");
+    cr = document.getElementById("current_row");
     for (var i = cr.childNodes.length - 1; i >= 0; i--) {
       cr.removeChild(cr.childNodes[i]);
       console.log("Removing");

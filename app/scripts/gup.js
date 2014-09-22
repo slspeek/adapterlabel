@@ -1,5 +1,5 @@
 /* globals document:false, window:false */
-var gup = function(name) {
+				var gup = function(name) {
   "use strict";
   name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
   var regexS = "[\\?&]" + name + "=([^&#]*)";
